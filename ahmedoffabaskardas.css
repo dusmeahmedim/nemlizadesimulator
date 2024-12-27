@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("font/Poppins-Medium.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-image: url("ahmetbg.png");
+    background-size: 100% 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.klimaKumanda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 50%;
+}
+
+.klimaKumanda img {
+    width: 100%;
+    height: 100%;
+}
+
+.onOff {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 2%;
+    height: 3%;
+    background-color: rgb(19, 199, 12);
+    margin-top: -3.5%;
+    font-size: 1vw;
+    font-family: Impact;
+    color: white;
+    cursor: pointer;
+}
+
+.sesler {
+    width: 23%;
+    height: 100%;
+    margin-left: 57%;
+}
+
+.ses {
+    background-color: rgba(255, 255, 255, 0.232);
+    font-size: 1.5vw;
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    overflow-y: auto;
+    margin-top: 2%;
+}
+
+.ses:hover {
+    background-color: rgb(192, 9, 79);
+    color: white;
+}
