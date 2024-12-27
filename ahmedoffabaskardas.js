@@ -6,6 +6,8 @@ var ahmedOff = new Audio('offbas.mp3');
 
 klima.play()
 
+alert("Nemlizade Simulator'e hoşgeldin. Canım sıkıldı işsizliğimden böyle bir şey yaptım. Düşme ha -lifeless")
+
 const sesler = [
     {
         sesAdi: "Ahmet Sex Yapıyor",
