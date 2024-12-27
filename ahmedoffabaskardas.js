@@ -6,7 +6,7 @@ var ahmedOff = new Audio('offbas.mp3');
 
 klima.play()
 
-alert("Nemlizade Simulator'e hoşgeldin. Canım sıkıldı işsizliğimden böyle bir şey yaptım. Düşme ha -lifeless")
+alert("Nemlizade Simulator'e hoşgeldin.  Düşme ha -lifeless")
 
 const sesler = [
     {
